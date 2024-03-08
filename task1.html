@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,  shrink-to-fit=no" />
+    <link rel="stylesheet" href="task1.css" />
+    <title>Portfolio</title>
+    <script src="https://kit.fontawesome.com/c3be48b8a1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+</head>
+
+<body style="color: white; background-color: black;">
+    <div id="header">
+    <div class="container">
+        <nav style="display: flex;">
+            <h2 style="color: white; "><span>H</span>S</h2>
+        
+        <ul id="sidemenu" >
+            <li><a href="#header">HOME</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#cv">RESUME</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+        <p>Full Stack Developer</p>
+        <h1>Hi, I'm <span>Hanzla  Salfi</span><br> from Pakistan</h1>
+    </div>
+    </div>
+</div>
+<!-- -------------------------------------skills---------------------------------- -->
+<div id="skills" style="color: white;">
+    <div class="container">
+        <h1 class="subtitle" style="text-align: center; margin-bottom: 20px;">SKILLS</h1>
+        <p style="text-align: center; font-size: 15px;">Continuously improving my skills and knowledge in the field.</p>
+        <div class="skills-title">
+            <div>
+                <i class="fa-solid fa-code" ></i>
+                <h2>Front End Development</h2>
+                <p>Proficient in HTML, CSS, and JavaScript. Experienced in responsive web design, 
+                building user-friendly interfaces, and using modern frameworks like ReactJS.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-computer"></i>
+                <h2>Back End Development</h2>
+                <p>Skilled in server-side programming using technologies like Node js and Express.
+                Experience working with databases such as MongoDB and MySQL.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <h2>Mobile App Development</h2>
+                <p>Proficient in developing mobile apps for iOS and Android using frameworks like React Native.
+                Experienced in building engaging and intuitive mobile user interfaces.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----------------------------------------- Portfolio ----------------------------------------- -->
+
+<div id="portfolio" style="color: white;">
+    <div class="container">
+        <h1 class="subtitle" style="text-align: center; margin-bottom: 20px;">PORTFOLIO</h1>
+        <p style="text-align: center; margin-bottom: 20px; font-size: 12px;">A collection of Projects I've worked on.</p>
+        <div class="portfolio-list">
+            <div class="work">
+                <img src="p1.jpg" alt="">
+                <div class="layer">
+                    <h3>Ecommerce Website</h3>
+                    <p>HTML/CSS/JavaScript</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="p2.jpg" alt="">
+                <div class="layer">
+                    <h3>Responsive Landing Page</h3>
+                    <p>HTML/CSS/Bootstrap</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="p3.jpg" alt="">
+                <div class="layer">
+                    <h3>Calculator App</h3>
+                    <p>HTML/CSS/JavaScript</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="p4.jpg" alt="">
+                <div class="layer">
+                    <h3>Blog Website</h3>
+                    <p>HTML/CSS/PHP</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="p5.jpg" alt="">
+                <div class="layer">
+                    <h3>Task Management App</h3>
+                    <p>React JS</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="p6.jpg" alt="">
+                <div class="layer">
+                    <h3>Data Visualization</h3>
+                    <p>Python/Plotly</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ------------------------------------ CV -------------------------------------- -->
+
+<div id="cv">
+    <div class="container">
+        <h1 class="subtitle" style="text-align: center; margin-bottom: 20px;">CURRICULAM VITAE</h1>
+        <p style="text-align: center; margin-bottom: 50px; font-size: 12px;">A small sampling of the projects I've worked on as a student of SE program.</p>
+        <div class="row">
+            <div class="cv-left">
+                <img src="IMG_7908.JPG" id="profile" alt="">
+                <div id="s1">
+                    <h2 style="margin-bottom: 10px;">Hanzla Salfi</h2>
+                    <p>hanzlasalfi6@gmail.com</p>
+                    <p>03114777187</p>
+                    <p>Address</p>
+                </div>
+                <div id="s2">
+                    <h4 style="margin-bottom: 10px;">Technical Skills</h4>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JavaScript</p>
+                </div>
+                <div id="s3">
+                    <h4 style="margin-bottom: 10px;">Personal Interests</h4>
+                    <p>Interest 1</p>
+                    <p>Interest 2</p>
+                    <p>Interest 3</p>
+                </div>
+            </div>
+            <div class="cv-right">
+                <div class="a1">
+                <h3>Profile</h3>
+                <p>My name is Hanzla Salfi and I'm from Lahore, Pakistan. I,ve done my intermediate from
+                    Punjab College and doing my bachelors from Superior University.
+                </p>
+                </div>
+                    <div class="a2">
+                    <h3>Highlights of Qualifications</h3>
+                    <p>Matriculation 2017</p>
+                    <p>intermediate</p>
+                </div>
+                    <div class="a3">
+                    <h3>Education</h3>
+                    <h6>Year-Year</h6>
+                    <p>Superior University</p>
+                    <p>Software Engineer</p>
+                </div>
+                <div class="a4">
+                    <h3>Additional Courses and training</h3>
+                    <h6>Year</h6>
+                    <p>MERN</p>
+                    <p>DirAction Bootcamp</p>
+                </div>
+                <div class="a5">
+                    <h3>Work Experience</h3>
+                    <h6>Year-Year</h6>
+                    <p>Full Stack Developer</p>
+                    <p>GOOGLE</p>
+                </div>
+                <div class="a6">
+                    <h3>Extracurricular Activities</h3>
+                    <h6>Organization</h6>
+                    <p>Role/Position</p>
+                    <p>Deatils of your involvement and contribution</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------------------------------- contact ------------------------------  -->
+
+<div id="contact">
+    <div class="container">
+        <h1 style="text-align: center; margin-top: 40px; margin-bottom: 20px;">Contact Me</h1>
+        <p style="text-align: center; margin-bottom: 50px; font-size: 12px;">Interested if I'd be right fit for your team? Fill in this form and i will respond within 23-48 hours.</p>
+        <div class="row">
+            <div class="contact-left">
+                <form>
+                    <input type="text" name="Name" placeholder="Enter Name" required>
+                    <input type="email" name="email" placeholder="Enter Email" required>
+                    <input type="phone" name="phone" placeholder="Enter Phone" required>
+                </form>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <textarea name="Message" rows="6" placeholder="Enter Message"></textarea>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class= "container">
+    <div class= "row">
+        <div class= "col-12">
+            <div class= "w-100"></div>
+            <button type= "button" class= "btn" style="border: 1px solid white;" data-toggle= "modal" data-target= "#liveModal">
+                Contact Us
+            </button>
+            <div class= "modal fade" tabindex="-1" id= "liveModal" role= "dialog" aria-labelledby= "liveModalLabel">
+                <div class= "modal-dialog" role="document">
+                    <div class= "modal-content">
+                        <div class= "modal-header">
+                            <h5 class= "modal-title">Contact Us</h5>
+                            <button class= "close" type="button" data-dismiss= "modal" aria-label= "Close">
+                                <span aria-hidden= "true" style="color: black;">x</span>
+                            </button>
+                        </div>
+                        <div class= "modal-body"  style="color: black; background-color: white;">
+          <div class="container">
+            <h1 style="text-align: center; margin-top: 10px; margin-bottom: 20px;">Fill the Form.</h1>
+            <p style="text-align: center; margin-bottom: 50px; font-size: 12px;">Interested if I'd be right fit for your team? Fill in this form and i will respond within 23-48 hours.</p>
+            <div class="brow">
+                <div class="bcontact-left">
+                    <form>
+                        <input type="text" name="Name" placeholder="Enter Name" required>
+                        <input type="email" name="email" placeholder="Enter Email" required>
+                        <input type="phone" name="phone" placeholder="Enter Phone" required>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+                <div class="bcontact-right">
+                    <form>
+                        <textarea name="Message" rows="6" placeholder="Enter Message"></textarea>
+                    </form>
+                </div>
+            </div>
+        </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+</body>
+<script>
+    var menu = document.getElementById("sidemenu");
+    function openmenu(){
+        menu.style.right = "0";
+    }
+    function closemenu(){
+        menu.style.right = "-200px";
+    }
+</script>
+
+</html>
